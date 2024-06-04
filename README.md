@@ -3,7 +3,8 @@
 open DEV-tools (F12)  
 open console  
 
-```(function smoothScroll() {
+```
+(function smoothScroll() {
     const scrollStep = 15; // Anzahl der Pixel pro Schritt
     const scrollInterval = 15; // Zeit in Millisekunden zwischen den Schritten
 
@@ -15,5 +16,5 @@ open console
     }
 
     const scrollTimer = setInterval(scrollDown, scrollInterval);
-    })();
+})();
 ```
